@@ -1,0 +1,294 @@
+/* ------------------------------- Home ----------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+/* ------------------------------ Navbar ----------------------------- */
+
+.navbar {
+	/*margin-top: -15px;*/
+	height: 50px;
+	width: 100%;
+    font-size: 1.2em;
+    position: fixed;
+	background-color: #808080;
+	float: left;
+}
+
+.navbar-image {
+	width: 20%;
+	float: left;
+	height: 100%;
+	margin-top: 1.5%;
+}
+
+.navbar-image a{
+	padding-left: 25%;
+	text-decoration: none;
+}
+
+
+.navbar-menu {
+	width: 65%;
+	height: 100%;
+	float: left;
+	list-style-type: none;
+	display: block;
+	margin-left: -5%;
+}
+
+
+.navbar-item {
+	float: right;
+	list-style-type: none;
+	padding-right: 5%;
+	margin-top: -0.5%;
+	text-decoration: none;
+}
+
+.navbar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.navbar-button {
+	width: 15%;
+	float: left;
+	height: 100%;
+	margin-top: 0.6%;
+	margin-left: 4%;
+}
+
+.menu-button {
+	 /*border: 1;*/
+	 font-size: 1em;
+	 background: none;
+	 box-shadow: none;
+	 border-radius: 3px;
+	 color: white;
+	 width: 70%;
+	 height: 75%;
+}
+
+
+
+
+/* -------------------- HyperKills --------------------- */
+
+.hyperkills {
+	width:100%;
+	height: 400px;
+	background-color: #808080;
+	color: white;
+	float: left;
+	margin-top: 50px;
+}
+
+
+.hyperkills-head{
+	margin-top: 7%;
+	padding-left: 5%;
+	color: white;
+}
+
+.hyperkills-content{
+	padding-left: 5%;
+	color: white;
+	width: 20%;
+	font-size: 0.8em;
+}
+
+.hyperkills-button{
+	margin-top: 2%;
+	padding-left: 5%;
+	color: white;
+	height: 13%;
+}
+
+.hyperkills-button button{
+	font-size: 1em;
+	 background: none;
+	 box-shadow: none;
+	 border-radius: 3px;
+	 color: white;
+	 width: 15%;
+	 height: 75%;
+}
+
+/* ------------------------- CryptoInitiative ----------------------- */
+
+.CryptoInitiative {
+	width:100%;
+	height: 250px;
+	background-color: #DCDCDC;
+	color: black;
+	float: left;
+	margin-top: 0px;
+}
+
+
+.CryptoInitiative-head{
+	margin-top: 5%;
+	padding-left: 40%;
+	color: black;
+	text-align: center;
+	width: 20%;
+}
+
+.CryptoInitiative-content{
+	padding-left: 40%;
+	color: black;
+	width: 20%;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+
+/* -------------------------- Crypto101 -------------------------- */
+
+.Crypto101 {
+	width:100%;
+	height: 250px;
+	background-color: #C0C0C0;
+	color: black;
+	float: left;
+	margin-top: 0px;
+}
+
+
+.Crypto101-head{
+	margin-top: 5%;
+	padding-left: 40%;
+	color: black;
+	text-align: center;
+	width: 20%;
+}
+
+.Crypto101-content{
+	padding-left: 40%;
+	color: black;
+	width: 20%;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+
+/* ------------------------ HyperkillsToken ------------------------ */
+
+.HyperkillsToken {
+	width:100%;
+	height: 350px;
+	background-color: #A9A9A9;
+	color: black;
+	float: left;
+	margin-top: 0px;
+}
+
+
+.HyperkillsToken-circle {
+	width: 100px;
+	height: 100px;
+	background: #DCDCDC;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: 10%;
+}
+
+.HyperkillsToken-image{
+	margin-top: 0px;
+	padding-left: 41%;
+}
+
+.HyperkillsToken-head{
+	margin-top: 5%;
+	padding-left: 40%;
+	color: black;
+	text-align: center;
+	width: 20%;
+}
+
+.HyperkillsToken-button{
+	margin-top: 3%;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+	height: 50%;
+}
+
+.HyperkillsToken-button button{
+	font-size: 1em;
+	 background: none;
+	 box-shadow: none;
+	 border-radius: 3px;
+	 color: white;
+	 width: 7%;
+	 height: 20%;
+}
+
+/* -------------------------------------- About Us -------------------------- */
+
+.aboutus {
+	width:100%;
+	height: 400px;
+	background-color: #DCDCDC;
+	color: white;
+	float: left;
+}
+
+.aboutus-head{
+	margin-top: 7%;
+	padding-left: 5%;
+	color: black;
+}
+
+.aboutus-content{
+	margin-top: 5%;
+	margin-left: 5%;
+	background-color: #C0C0C0;
+	width: 100%;
+}
+
+.aboutus-team{
+	width: 10%;
+	float: left;
+	height: 130px;
+	background-color: #DCDCDC;
+	padding-right: 5%;
+}
+
+.aboutus-image{
+	height: 80%;
+	background-color: #C0C0C0;
+	width: 100%;
+}
+
+.aboutus-name{
+	height: 20%;
+	color: black;
+	text-align: center;
+}
+
+/* ----------------- Footer --------------- */
+
+.footer{
+	width:100%;
+	height: 40px;
+	background-color: #C0C0C0;
+	color: black;
+	float: left;
+	font-size: 0.7em;
+}
+
+.footer-head{
+	margin-top: 1%;
+	padding-left: 5%;
+	color: black;
+}
