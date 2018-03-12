@@ -15,7 +15,7 @@ class NavBar extends Component{
     return (
         <div className = "navbar">
             <div className="navbar-image">
-                <a href=""  style = {{ "color": "black"}}>HYPERKILLS</a>
+                <a href=""  style = {{ "color": "black"}}>HYPEKILLS</a>
             </div>
             <div className="navbar-menu">
               <ul className="navbar-top">
@@ -23,7 +23,7 @@ class NavBar extends Component{
                   <a href="/">About Us</a>
                 </li>
                 <li className="navbar-item">
-                  <a href="/">Hyperkills Token</a>
+                  <a href="/">Hypekills Token</a>
                 </li>
                 <li className="navbar-item">
                   <a href="/">Crypto 101</a>

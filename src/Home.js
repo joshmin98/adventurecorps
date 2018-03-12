@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import NavBar from './components/NavBar.js';
-import Hyperkills from './components/Hyperkills.js';
+import Hypekills from './components/Hypekills.js';
 import CryptoInitiative from './components/CryptoInitiative.js';
 import Crypto101 from './components/Crypto101.js';
-import HyperkillsToken from './components/HyperkillsToken.js';
+import HypekillsToken from './components/HypekillsToken.js';
 import AboutUs from './components/AboutUs.js';
 import Footer from './components/Footer.js';
 import './App.css';
@@ -14,10 +14,10 @@ class Home extends Component {
     return (
       <div>
         <NavBar />
-        <Hyperkills />
+        <Hypekills />
         <CryptoInitiative />
         <Crypto101 />
-        <HyperkillsToken />
+        <HypekillsToken />
         <AboutUs />
         <Footer />
       </div>
