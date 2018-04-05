@@ -1,22 +1,12 @@
 import React, {Component} from 'react';
 
 const styles = {
-  height : "100%",
-  backgroundColor: "#DCDCDC"
+    height : "100%",
+    backgroundColor: "#DCDCDC"
 };
 
 
-class CryptoInitiative extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    };
-  }
-
-  componentDidMount = () => {
-  }
-
-  render = () => {
+const CryptoInitiative = (props) => {
     return (
         <div className = 'CryptoInitiative'>
           <div className = 'CryptoInitiative-head'>
@@ -29,7 +19,6 @@ class CryptoInitiative extends Component{
           </div>
         </div>
     );
-  };
 };
 
 export default CryptoInitiative;

@@ -1,22 +1,12 @@
 import React, {Component} from 'react';
 
 const styles = {
-  height : "100%",
-  backgroundColor: "#C0C0C0"
+    height : "100%",
+    backgroundColor: "#C0C0C0"
 };
 
 
-class Crypto101 extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    };
-  }
-
-  componentDidMount = () => {
-  }
-
-  render = () => {
+const Crypto101 = (props) => {
     return (
         <div className = 'Crypto101'>
           <div className = 'Crypto101-head'>
@@ -29,7 +19,6 @@ class Crypto101 extends Component{
           </div>
         </div>
     );
-  };
 };
 
 export default Crypto101;

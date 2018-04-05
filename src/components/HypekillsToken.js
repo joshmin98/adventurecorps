@@ -1,22 +1,12 @@
 import React, {Component} from 'react';
 
 const styles = {
-  height : "100%",
-  backgroundColor: "#A9A9A9"
+    height : "100%",
+    backgroundColor: "#A9A9A9"
 };
 
 
-class HypekillsToken extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    };
-  }
-
-  componentDidMount = () => {
-  }
-
-  render = () => {
+const HypekillsToken = (props) => {
     return (
         <div className = 'HyperkillsToken'>
           <div className = 'HyperkillsToken-head'>
@@ -26,12 +16,11 @@ class HypekillsToken extends Component{
           </div>
           <div className="HyperkillsToken-image"><div className='HyperkillsToken-circle'></div></div>
           <div className='HyperkillsToken-button'>
-              <button>Buy Now</button>
-            </div>
+            <button>Buy Now</button>
+          </div>
         </div>
 
     );
-  };
 };
 
 export default HypekillsToken;

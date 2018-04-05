@@ -1,22 +1,11 @@
 import React, {Component} from 'react';
 
 const styles = {
-  height : "100%",
-  backgroundColor: "#A9A9A9"
+    height : "100%",
+    backgroundColor: "#A9A9A9"
 };
 
-
-class HyperkillsToken extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    };
-  }
-
-  componentDidMount = () => {
-  }
-
-  render = () => {
+const HyperkillsToken = (props) => {
     return (
         <div className = 'HyperkillsToken'>
           <div className = 'HyperkillsToken-head'>
@@ -26,12 +15,11 @@ class HyperkillsToken extends Component{
           </div>
           <div className="HyperkillsToken-image"><div className='HyperkillsToken-circle'></div></div>
           <div className='HyperkillsToken-button'>
-              <button>Buy Now</button>
-            </div>
+            <button>Buy Now</button>
+          </div>
         </div>
 
     );
-  };
 };
 
 export default HyperkillsToken;

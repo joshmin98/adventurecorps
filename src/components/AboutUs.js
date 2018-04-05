@@ -1,22 +1,12 @@
 import React, {Component} from 'react';
 
 const styles = {
-  height : "100%",
-  backgroundColor: "#A9A9A9"
+    height : "100%",
+    backgroundColor: "#A9A9A9"
 };
 
 
-class AboutUs extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    };
-  }
-
-  componentDidMount = () => {
-  }
-
-  render = () => {
+const AboutUs = (props) => {
     return (
         <div className = 'aboutus'>
           <div className = 'aboutus-head'>
@@ -28,7 +18,6 @@ class AboutUs extends Component{
           </div>
         </div>
     );
-  };
 };
 
 export default AboutUs;

@@ -1,16 +1,6 @@
 import React, {Component} from 'react';
 
-class Hypekills extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    };
-  }
-
-  componentDidMount = () => {
-  }
-
-  render = () => {
+const Hypekills = (props) => {
     return (
         <div className = 'hyperkills'>
           <div className = 'hyperkills-head'>
@@ -26,7 +16,6 @@ class Hypekills extends Component{
           </div>
         </div>
     );
-  };
 };
 
 export default Hypekills;
